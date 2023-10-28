@@ -1,0 +1,54 @@
+$transition: all 0.2s ease-in-out;
+$transition005: all 0.05s ease-in-out;
+$transition05: all 0.5s ease-in-out;
+$transition1: all 1s ease-in-out;
+
+
+
+$text-color: #111111;
+
+%flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+%flex-c{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%nolink{
+    &:before{
+        display: none;
+    }
+}
+
+%after{
+    content: '';
+    display: block;
+    position: absolute;
+}
+
+@mixin font_min(){
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
