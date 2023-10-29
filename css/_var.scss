@@ -34,6 +34,7 @@ $text-color: #111111;
 @mixin font_min(){
     font-size: 18px;
     line-height: 22px;
+    //@include font_min();
 }
 
 
